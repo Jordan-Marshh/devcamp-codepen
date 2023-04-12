@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    background-color: #1e2025;
+}
+
+.header {
+    background-color: black;
+    width:100%;
+    height:220px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;;
+    align-items:center;
+
+}
+
+img {
+    width:375px;
+    margin:50px;
+}
+
+.header div {
+    color:white;
+    padding:10px;
+}
+
+.button-wrapper div:hover {
+    color:#468f4d;
+    background-color:darkslategray;
+}
+
+.button-wrapper {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-40px;
+    font-weight:bold;
+}
+
+.header > .button-wrapper > .spark {
+    color:#6d6d6d;
+}
+
+.header > .button-wrapper > .spark:hover {
+    color:#468f4d
+}
+
+.main {
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-top:50px;
+    align-items:center;
+}
+
+.main-text {
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    text-align:center;
+    margin: 0 30px 0 30px;
+}
+
+.main > .main-text p {
+    font-size:35px;
+    color:gray;
+    margin:0;
+    font-weight:lighter;
+}
+
+strong {
+    font-weight:bold;
+    color:white;
+}
+
+.main > .sub-text {
+    font-size:30px;
+    text-align:center;
+    color:gray;
+    margin: 10px 10px 10px 10px;
+}
+
+.main > .buttons > .sign-up {
+    width:200px;
+    height:65px;
+    font-size:25px;
+    background-color:#4bce79;
+    color:black;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.main > .buttons > .sign-up:hover {
+    background-color:#2A663F;
+    color:white;
+}
+
+.main > .buttons > .learn {
+    background-color:black;
+    color:white;
+    width:175px;
+    height:65px;
+    font-size:25px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:13px;
+}
+
+.main > .buttons > .learn:hover {
+    background-color: #646464;
+    color:black;
+}
+
+.strong-two {
+    color:#39a5d9;
+}
+
+.picture > div p{
+    color:white;
+    margin:30px;
+}
+
+.picture img {
+    margin-top:-20px;
+    margin-right:0;
+    width:400px;
+}
+
+.header-buttons {
+    display:flex;
+    justify-content:space-around;
+}
+
+.header-buttons div {
+    width:100px;
+    height:30px;
+    font-size:20px;
+    background-color:#424242;
+    color:white;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:5px;
+    margin-top:15px;
+}
+
+.header-buttons img {
+    width:30px;
+    margin-top:15px;
+    margin-left:10px;
+    margin-right:10px;
+}
